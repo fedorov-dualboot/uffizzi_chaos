@@ -1,7 +1,7 @@
 services:
   chaos:
     build: 
-      context: https://github.com/NealArw/uffizzi_chaos
+      context: https://github.com/NealArw/uffizzi-chaos
       dockerfile: /Dockerfile
 
 x-uffizzi:
