@@ -4,7 +4,7 @@ services:
       context: https://github.com/NealArw/uffizzi_chaos
       dockerfile: /Dockerfile
 
-x-uffizzi:
+1x-uffizzi:
   ingress:
     service: chaos
     port: 80
