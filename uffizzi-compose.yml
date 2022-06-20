@@ -1,12 +1,12 @@
 services:
-  chaos:
+  1-chaos:
     build: 
       context: https://github.com/NealArw/uffizzi_chaos
       dockerfile: /Dockerfile
 
-1x-uffizzi:
+x-uffizzi:
   ingress:
-    service: chaos
+    service: 1-chaos
     port: 80
     
   continuous_preview:
