@@ -5,4 +5,4 @@ RUN date --utc +'%s' | tee date.tmp
 
 # If it has been less than ten minutes since build, exit.
 # If now is more than ten minutes since build, listen TCP port 80.
-CMD date && date -d @1655452135 && if [ $((`date +'%s'` - 1655452135 )) -lt 0 ]; then exit 100; else echo 'START'; nginx -g 'daemon off;'; fi
+CMD date && date -d @1656501652 && if [ $((`date +'%s'` - 1656501652 )) -lt 0 ]; then exit 100; else echo 'START'; nginx -g 'daemon off;'; fi
